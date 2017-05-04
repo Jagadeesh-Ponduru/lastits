@@ -1,0 +1,236 @@
+#cssmenu ul li.active:after {
+    position: absolute;
+    right: -14px;
+    1width: 29.526912px;
+    1height: 29.526912px;
+    background: #15a794;
+    background: -moz-linear-gradient(-45deg, #128c7c, #18c2ac);
+    background: -webkit-linear-gradient(-45deg, #128c7c, #18c2ac);
+    background: -o-linear-gradient(-45deg, #128c7c, #18c2ac);
+    background: -ms-linear-gradient(-45deg, #128c7c, #18c2ac);
+    background: linear-gradient(-45deg, #128c7c, #18c2ac);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    content: "";
+}
+#cssmenu ul.sensors li.active:after {top:7px;}
+#cssmenu ul.previous li.active:after {top:48px}
+#cssmenu ul.testing li.active:after {top:88px;}
+li.active a{
+color:#21159b !important;
+}
+#cssmenu ul li.active:before {
+    /* position: absolute; */
+    /* right: -12px; */
+    /* top: 9px; */
+    /* z-index: 10; */
+    /* width: 28.52691193px; */
+    /* height: 28.52691193px; */
+    /* border-right: 1px dashed #52e9d6; */
+    /* border-top: 1px dashed #52e9d6; */
+    /* -webkit-transform: rotate(45deg); */
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    content: "";
+}
+
+#cssmenu ul li.active a:after {
+    position: absolute;
+    bottom: -7px;
+    left: -11px;
+    z-index: -1;
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 8px solid transparent;
+    border-right: 8px solid #0b5a50;
+    content: "";
+}
+
+#cssmenu ul#side-menu li.active {
+    left: -8px;
+    padding: 2px;
+    background: #15a794;
+    background: -moz-linear-gradient(bottom, #128c7c, #18c2ac);
+    background: -webkit-linear-gradient(bottom, #128c7c, #18c2ac);
+    background: -o-linear-gradient(bottom, #128c7c, #18c2ac);
+    background: -ms-linear-gradient(bottom, #128c7c, #18c2ac);
+    background: linear-gradient(to top, #128c7c, #18c2ac);
+    box-shadow: 1px 1px 10px #bf9c61;
+}
+
+#cssmenu ul {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background: #ffffff;
+    background: -moz-linear-gradient(bottom, #f0f0f0, #ffffff);
+    background: -webkit-linear-gradient(bottom, #f0f0f0, #ffffff);
+    background: -o-linear-gradient(bottom, #f0f0f0, #ffffff);
+    background: -ms-linear-gradient(bottom, #f0f0f0, #ffffff);
+    /* background: linear-gradient(to top, #f0f0f0, #ffffff); */
+}
+
+#cssmenu ul li{
+	position:inherit;
+}
+
+ #cssmenu  ul#side-menu li a:hover
+{
+	background: #eeeeee; /* Old browsers */
+	background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+	
+}
+
+#cssmenu  ul#side-menu li.active a:hover
+{
+    background: -moz-linear-gradient(bottom, #128c7c, #18c2ac);
+    background: -webkit-linear-gradient(bottom, #128c7c, #18c2ac);
+    background: -o-linear-gradient(bottom, #128c7c, #18c2ac);
+    background: -ms-linear-gradient(bottom, #128c7c, #18c2ac);
+    background: linear-gradient(to top, #128c7c, #18c2ac);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+
+}
+
+.navbar-default{
+    1height: 100%;
+    margin-bottom: 0;
+    border-color: #242424;
+	min-width:250px;
+}
+
+.sidebar
+{
+	border: 1px solid gray;
+	height:93%;
+	background: #eeeeee; /* Old browsers */
+	background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+	
+}
+#map
+{
+margin-left:250px;
+}
+
+.sensor_inform
+{
+display:none;
+width: 308px;
+height:139px;
+margin-left: 246px;
+margin-top:20px;
+border:1px solid grey;
+border-radius:5px;
+box-shadow:2px 2px 10px orange;
+padding: 5px;
+background: #2c6372;
+color:white;
+}
+.sensor_inform span
+{
+float:left;
+display:block;
+padding-bottom: 5px;
+clear:both;
+}
+
+.sensor_info
+{
+display:none;
+width: 308px;
+height:139px;
+margin-left: 246px;
+margin-top:20px;
+border:1px solid grey;
+border-radius:5px;
+box-shadow:2px 2px 10px orange;
+padding: 5px;
+background: #2c6372;
+color:white;
+/*background: #eeeeee;
+    background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+    background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%);
+    background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);*/
+}
+.sensor_info span
+{
+float:left;
+display:block;
+padding-bottom: 5px;
+clear:both;
+}
+
+#map1{
+	margin: 0;
+	padding: 0;
+	height: 400px;
+	max-width: none;
+}
+#map1 img {
+	max-width: none !important;
+}
+.gm-style-iw {
+	border-radius: 5px;
+         margin: 23px;
+	1width: 345px  !important;
+	top: -8px !important;
+	left:-8px !important;
+	1background-color: white;
+	box-shadow: 0 1px 6px rgba(178, 178, 178, 0.6);
+	border: 1px solid rgba(72, 181, 233, 0.6);
+	border-radius: 2px 2px 10px 10px;
+	background:#cbe49b;
+}
+#iw-container {
+	
+	margin-bottom: 10px;
+	padding-bottom: 1px;
+}
+#iw-container  p
+{
+display: block;
+    float: left;
+    width: 250px;
+
+}
+#iw-container .iw-title {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	padding: 0px;
+	background-color: #34738e;
+	color: white;
+	margin: 0;
+	border-radius: 2px 2px 0 0;
+	padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+.gm-style img
+{
+float:right;
+}
+
+
